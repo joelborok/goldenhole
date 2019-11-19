@@ -1,0 +1,36 @@
+.section-1{
+/*    background-image: url("/img/backgroundDesign2.jpg");*/
+    background-size: cover;
+    height: 85vh;
+}
+.card.card-outline-secondary.w-50 {
+    background-color: rgba(255,255,255,0.1);
+}
+
+input.form-control,
+input.form-control:focus
+{
+   background-color: rgba(255,255,255,0.1); 
+}
+
+.custom-border-2{
+	border-left: 3px solid #ffa500;
+}
+.custon-background-1{
+	
+}
+.custom-border-3{
+	/*border-bottom:1px solid #a2a2a2;*/
+    border-bottom:1px solid #ffa500;	
+}
+.custom.btn.btn-primary.btn-lgy{
+    color: #fff;
+    background-color: #0069D9;
+    border-color: #0069D9;
+}
+.custom.btn.btn-primary.btn-lgy:hover,
+.custom.btn.btn-primary.btn-lgy:active{
+    color: #fff;
+    background-color: #009cd9;
+    border-color: #009cd9;
+}

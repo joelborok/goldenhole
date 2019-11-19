@@ -1,0 +1,18 @@
+.section-1{
+	/*background: #F3F3F3;*/
+	/*background: linear-gradient(to bottom,#F3F3F3,#FFFFFF);*/
+	/*background-image: url("/img/backgroundDesign2.jpg");*/
+	background-size: cover;
+	height: 85vh;
+	
+}
+.display-5{
+	font-size: 1.2rem;
+}
+.custom-border-2{
+	border-left: 3px solid #ffa500;
+}
+.custom-img-size{
+width:180px;
+height:180px;
+}

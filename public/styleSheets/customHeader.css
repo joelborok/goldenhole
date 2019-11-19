@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+/*red-#B22840*/
+/*blue-#08387F*/
+/*grey-#F3F3F3*/
+
+.navbar-custom-1 .navbar-brand,
+.navbar-custom-1 .navbar-text {
+	font-family: "montserratregular",Helvetica,sans-serif;
+	color: #000;
+	font-size: 2rem;
+}
+.navbar-custom-1.navbar-dark .navbar-brand:focus, 
+.navbar-custom-1.navbar-dark .navbar-brand:hover {
+   	color: #000;
+}
+
+
+ /*background values(i.e color) for navbar*/
+.d-flex.justify-content-center.custom-area-1 {
+	background:#08387F;
+}
+
+/*set values for all navbar links*/
+.navbar-custom.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+    font-family: "montserratregular",Helvetica,sans-serif;
+   font-size: 1.5rem;
+}
+
+/*set values for active navbar link*/
+.navbar-custom.navbar-dark .navbar-nav .nav-item.active .nav-link{
+    color:#ffa500;
+    border-bottom: 3px solid #ffa500;
+}
+
+/*set values for hovered navbar links*/
+.navbar-custom.navbar-dark .navbar-nav .nav-link:hover {
+    color:#ffa500;
+}
+.custom-font-1{
+font-family: 'Open Sans', sans-serif;
+}
+/*.custom-toggler.navbar-toggler{
+	border:0px
+}*/

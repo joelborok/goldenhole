@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/styleSheets/customHeader.css">
+    <link rel="stylesheet" type="text/css" href="/styleSheets/careers.css">
+    <title>Careers</title>
+  </head>
+  <body>
+     <!--Nav bar        ----------------------------------------------------------------------------------------------------->  
+<header>
+      <div class="d-flex justify-content-center custom-border-1">
+      <nav class=" navbar navbar-expand-md navbar-dark sticky-top navbar-custom-1">
+         <a class=" custom-brand navbar-brand ml-4" href="#">GOLDENHOLE KOLOS</a>
+      </nav>
+      </div>
+      <div class="d-flex justify-content-center custom-area-1"> 
+      <nav class="navbar navbar-expand-md navbar-dark sticky-top navbar-custom">
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span> Menu </span><span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link mr-4 ml-4" href="/">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link mr-4" href="/about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mr-4" href="/counselling">Counselling</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link mr-4" href="/counsellors">Counsellors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mr-4" href="/admissions">Admissions</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link mr-4" href="/institutes">Institutes</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link mr-4" href="/kolos">Kolos</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link mr-4" href="/careers">Careers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mr-4" href="/contacts">Contacts</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </nav>
+      </div>
+    </header>
+<!--Nav bar        ----------------------------------------------------------------------------------------------------->
+<!-- Sections -->
+    <section class="section-1">
+      <div class="container pt-5">
+  <div class="row d-flex justify-content-center ">
+    <h5 class="h3 custom-font-1">NO OPENINGS CURRENTLY - CHECK BACK SOON AGAIN!</h5>
+  </div>
+  <div class="d-flex justify-content-center border-bottom">
+    <div>
+     <label class="pr-2">Subscribe to be notified:</label>
+     <form class="form-inline" method="POST" action="/careers/notification">
+    <div class="form-group mb-2">
+      
+      <input type="email" class="form-control"name="email" placeholder="email">
+      <button name="" class="btn btn-secondary btn-lg ">Submit</button> 
+    </div>
+      </form>
+    </div>
+  </div>
+  <div class="row d-flex justify-content-center mt-4">
+    
+                    <!-- form user info -->
+                   <div class="card card-outline-secondary">
+                        <div class="card-body">
+                          <p class="display-4">Submit your application</p>
+                            <form method="POST" action="/careers">
+                                
+                                    <label for="firstName" class="mb-0">*First Name:</label>
+                                    <div class="row mb-2">
+                                        <div class="col-lg-12">
+                                            <input type="text" name="firstName" id="firstName" class="form-control" required="">
+                                        </div>
+                                    </div>
+                                    <label for="lastName" class="mb-0">*Last Name:</label>
+                                    <div class="row mb-2">
+                                        <div class="col-lg-12">
+                                            <input type="text" name="lastName" id="lastName" class="form-control" required="">
+                                        </div>
+                                    </div>
+                                    <label for="email1" class="mb-0">*Email:</label>
+                                    <div class="row mb-2">
+                                        <div class="col-lg-12">
+                                            <input type="text" name="email" id="email2" class="form-control" required="">
+                                        </div>
+                                    </div>
+                                    <label for="positionForApplying" class="mb-0">*Position for applying:</label>
+                                    <div class="row mb-2">
+                                        <div class="col-lg-12">
+                                            <input type="text" name="position" id="positionForApplying" class="form-control" required="">
+                                        </div>
+                                    </div>
+                                    <label for="attachFile" class="mb-0">*Attach your resume:</label>
+                                    <div class="row mb-2">
+                                        <div class="col-lg-12">
+                                            <input type="file" name="file" id="attachFile" class="form-control" required="">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-2 justify-content-center">
+                                    <button type="submit" class="btn btn-secondary btn-lg ">Submit</button>  
+                                    </div>
+                                    
+                                
+                            </form>
+                        </div>
+                   </div>
+                    <!-- /form user info -->
+
+              
+  </div>
+</div>                   
+    </section>           
+<!-- Sections -->
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>	

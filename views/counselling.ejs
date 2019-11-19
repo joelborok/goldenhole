@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/styleSheets/customHeader.css">
+    <link rel="stylesheet" type="text/css" href="/styleSheets/counselling.css">
+    <title>Counselling</title>
+  </head>
+  <body>
+     <!--Nav bar        ----------------------------------------------------------------------------------------------------->  
+<header>
+      <div class="d-flex justify-content-center custom-border-1">
+      <nav class=" navbar navbar-expand-md navbar-dark sticky-top navbar-custom-1">
+         <a class=" custom-brand navbar-brand ml-4" href="#">GOLDENHOLE KOLOS</a>
+      </nav>
+      </div>
+      <div class="d-flex justify-content-center custom-area-1"> 
+      <nav class="navbar navbar-expand-md navbar-dark sticky-top navbar-custom">
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span> Menu </span><span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link mr-4 ml-4" href="/">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link mr-4" href="/about">About</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link mr-4" href="/counselling">Counselling</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mr-4" href="/counsellors">Counsellors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mr-4" href="/admissions">Admissions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mr-4" href="/institutes">Institutes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mr-4" href="/kolos">Kolos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mr-4" href="/careers">Careers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mr-4" href="/contacts">Contacts</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </nav>
+      </div>
+    </header>
+<!--Nav bar        ----------------------------------------------------------------------------------------------------->
+<!-- Sections -->
+<section class="section-1">
+  <div class="container py-5">
+    <div class="row custom-border-2 px-5">
+      <p class="display-5">Need a career boost?</p>
+      <p class="display-6 mb-0">Signup for counselling on any career.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section-2">
+  <div class="container">
+  <div class="row justify-content-center">
+    <div class="card w-50">
+            <div class="card-body">
+                <form method="POST" action="/counselling">
+                     <div class="form-group row">
+                        <label class="col-sm-3 col-form-control form-control-label">Name:</label>
+                        <div class="col-sm-7">
+                            <input class="form-control" type="text" required name="name">
+                        </div>
+                        <label class="col-sm-2 col-form-control form-control-label"></label>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-3 col-form-control form-control-label">Gender:</label>
+                        <div class="col-sm-9">
+                            <div class="form-group-small">
+                               <div class="form-check form-check-inline">
+                                 <label class="form-check-label">
+                                   <input type="radio" class="form-check-input" name="radio" value="Male" id="Male">Male
+                                 </label>
+                               </div>
+                               <div class="form-check form-check-inline">
+                                 <label class="form-check-label">
+                                   <input type="radio" class="form-check-input" name="radio" value="Female" id="Female">Female
+                                 </label>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-3 col-form-control form-control-label">Date of birth:</label>
+                        <div class="col-sm-7">
+                            <input class="form-control" type="text" name="dob">
+                        </div>
+                        <label class="col-sm-2 col-form-control form-control-label"></label>
+                    </div>
+                    <div class="form-group row">
+                        <label class="ml-3">Contact Informations</label>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-3 col-form-control form-control-label">Phone No:</label>
+                        <div class="col-sm-7">
+                            <input class="form-control" type="number" name="phone">
+                        </div>
+                        <label class="col-sm-2 col-form-control form-control-label"></label>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-3 col-form-control form-control-label">Email:</label>
+                        <div class="col-sm-7">
+                            <input class="form-control" type="email" name="email">
+                        </div>
+                        <label class="col-sm-2 col-form-control form-control-label"></label>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-form-control form-control-label"></label>
+                        <div class="col-sm-4">
+                            <input class="form-control btn btn-secondary btn-lg" type="submit">
+                        </div>
+                            <label class="col-sm-4 col-form-control form-control-label"></label>
+                    </div>
+                </form>
+            </div>
+          </div>  
+</section>
+               
+<!-- Sections -->
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

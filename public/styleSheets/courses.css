@@ -1,0 +1,9 @@
+.section-1{
+/*background-image: url("/img/backgroundDesign2.jpg");*/
+	background-size: cover;
+	height:85vh;
+}
+
+li.list-group-item.text-center{
+	/* background-color: rgba(255,255,255,0.8; */
+}

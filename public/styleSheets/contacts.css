@@ -1,0 +1,38 @@
+.section-1{
+	height: 100vh;
+/*    background-image: url("/img/backgroundDesign2.jpg");*/
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+.custom.fa.fa-phone{
+	font-size: 1.8rem;
+}
+.custom.fa.fa-envelope{ 
+	font-size: 1.8rem;
+}
+.custom.fa.fa-address-card{
+	font-size: 1.8rem;
+}
+.custom-font-size{
+	font-size: 1.2rem;
+}
+button.form-control.custom{
+	color: #fff;
+    background-color: #0069D9;
+    border-color: #0069D9;
+}
+button.form-control.custom:hover,
+button.form-control.custom:active
+{
+	color: #fff;
+    background-color: #009cd9;
+    border-color: #009cd9;
+}
+textarea#comment {
+    background-color: rgba(255,255,255,0.1);
+}
+input.form-control,
+input.form-control:focus
+{
+   background-color: rgba(255,255,255,0.1);	
+}

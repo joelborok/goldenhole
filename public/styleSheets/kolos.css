@@ -1,0 +1,10 @@
+.section-1{
+	
+	/*background-image: url("/img/backgroundDesign2.jpg");*/
+    background-size: cover;
+    height: 85vh;
+
+}
+.custom.jumbotron{
+    background: rgba(204, 204, 204, 0.1);
+}

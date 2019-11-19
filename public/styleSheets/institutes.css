@@ -1,0 +1,86 @@
+.section-top{
+	padding:10px;
+}
+.section-1{
+    padding:80px;
+    background: #eef2f3;
+    background: -webkit-linear-gradient(to right, #ffffff,#eef2f3 );
+    background: linear-gradient(to right, #ffffff,#eef2f3);	
+}
+.section-2{
+/*background-image: url("/img/backgroundDesign2.jpg");*/
+    background-size: cover;
+    height: 85vh;
+}
+.custom.jumbotron{
+    background: rgba(204, 204, 204, 0.1);
+}
+.custom-display-1{
+	font-size: 2rem;
+}
+
+/*--------------------*/
+.custom.img-fluid{
+    max-width: 350px;
+    height: 433px;
+}
+.team-member {
+    overflow: hidden;
+}
+.team-member, .team-member .team-img {
+    position: relative;
+}
+.team-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    border: 20px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.90);
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.desk{
+	margin-top: 120px;
+    text-align: center;
+    color: #222;
+}
+
+.team-title {
+    position: static;
+    padding: 20px 0;
+    display: inline-block;
+    letter-spacing: 2px;
+    width: 100%;
+}
+.team-title h5 {
+    margin-bottom: 0px;
+    display: block;
+    text-transform: uppercase;
+}
+.team-title span {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #a5a5a5;
+    letter-spacing: 1px;
+}
+.team-member:hover .team-hover .desk {
+    top: 35%;
+}
+.team-member:hover .team-hover, .team-member:hover .team-hover .desk{
+    opacity: 1;
+}
+.heading-title {
+    margin-bottom: 100px;
+}
+.text-center {
+    text-align: center;
+}
+.heading-title h3 {
+    margin-bottom: 0;
+    letter-spacing: 2px;
+    font-weight: normal;
+}

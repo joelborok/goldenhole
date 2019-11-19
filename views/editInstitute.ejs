@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/styleSheets/customHeader.css">
+    <link rel="stylesheet" type="text/css" href="">
+    <title>editInstitute</title>
+  </head>
+  <body>
+     <!--Nav bar        ----------------------------------------------------------------------------------------------------->  
+<header>
+      <div class="d-flex justify-content-center custom-border-1">
+      <nav class=" navbar navbar-expand-md navbar-dark sticky-top navbar-custom-1">
+         <a class=" custom-brand navbar-brand ml-4" href="#">GOLDENHOLE KOLOS</a>
+      </nav>
+      </div>
+      <div class="d-flex justify-content-center custom-area-1"> 
+      <nav class="navbar navbar-expand-md navbar-dark sticky-top navbar-custom">
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span> Menu </span><span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+             <li class="nav-item">
+              <a class="nav-link mr-4 ml-4" href="/">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link mr-4" href="/about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mr-4" href="/counselling">Counselling</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link mr-4" href="/counsellors">Counsellors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mr-4" href="/admissions">Admissions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mr-4" href="/institutes">Institutes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mr-4" href="/kolos">Kolos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mr-4" href="/careers">Careers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mr-4" href="/contacts">Contacts</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </nav>
+      </div>
+    </header>
+<!--Nav bar        ----------------------------------------------------------------------------------------------------->
+<!-- Sections -->
+<!-- <section class="section-top">
+  
+</section>
+<section class="section-1">
+  <p class="custom-display-1 text-center">Kolos is proud to be working with the following Institutes:</p>
+</section>        -->
+<section class="section-2">
+  <div class="container">
+   <form method="POST" action="/institutes/<%=institute._id%>?_method=PUT">
+     <div class="form-group">
+       <label>Name:</label>
+       <input class="form-control"type="text" name="name" value="<%=institute.name%>" placeholder="name" required>
+     </div>
+     <div class="form-group">
+       <label>Image</label>
+       <input class="form-control"type="text" name="image" value="<%=institute.image%>" placeholder="image" required>
+     </div>
+     <div class="form-group">
+       <label>Description</label>
+       <textarea class="form-control" name="body" required><%=institute.body%></textarea>
+     </div>
+      <div class="form-group">
+       <label>Address</label>
+       <textarea class="form-control" name="address" required><%=institute.address%></textarea>
+     </div>
+     <div class="form-group">
+       <label>Website</label>
+       <input class="form-control"type="text" name="website" value="<%=institute.website%>" placeholder="enter website" required>
+     </div>  
+     <div class="form-group">
+       <label>Affliations</label>
+       <%var data=institute.affliation.toString();%>
+       <%var data1=data.replace(/,/gi, "\n");%>
+       <textarea class="form-control" name="affliation" required><%=data1%></textarea>
+     </div>
+     <div class="form-group">
+       <label>Courses offered</label>
+       <%peopleArray = Object.keys(institute.courses).map(i => institute.courses[i]);%>
+          <%var arrayTest1=peopleArray.flat();%>
+          <%var arrayTest2a=arrayTest1.slice();%>
+       <textarea class="form-control"  name="courses" required><%for(var i=0;i < arrayTest2a.length;i++){%>
+       <%=arrayTest2a[i].title%><%}%></textarea>
+      
+     </div>
+     <div class="form-group">
+       <label>Gallery</label>
+       <%var data=institute.gallery.toString();%>
+       <%var data1=data.replace(/,/gi, "\n");%>
+       <textarea class="form-control" name="gallery" required><%=data1%></textarea>
+     </div>
+     <button>Update</button>
+   </form>
+   <form method="POST" action="/institutes/<%=institute._id%>?_method=DELETE"><button>Delete</button></form>
+</section> 
+  </div>
+           
+<!-- Sections -->
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+     <script type="text/javascript" src="/javaScripts/institutes.js"></script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+.display-1{
+	    font-family: Georgia;
+	    font-size:5rem;
+}
+.display-2{
+	    font-family: Georgia;
+	    font-size:3rem;
+}
+.section-1{
+/*	height: 85vh;
+	background-image: url("img/back5.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;*/
+}
+.custom-background-1{
+    height:85vh;
+	/*background-image: url("/img/back5.jpg");*/
+	/*background-image: url("/img/backgroundDesign2.jpg");*/
+	background-size: cover;
+	background-repeat: no-repeat;	
+}
+.custom-text-1{
+	color:#B22840;
+}
+.custom.jumbotron{
+	background: rgba(204, 204, 204, 0.2);
+}

@@ -1,0 +1,35 @@
+.section-1{
+	background-color: #ffffff;
+	/*background: linear-gradient(to bottom,#F3F3F3,#FFFFFF);*/
+	
+}
+.section-2{
+	padding:30px;
+	background-color: #F3F3F3;
+	
+	
+}
+.display-5{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3rem;
+}
+.display-6{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 4rem;
+}
+.custom-border-2{
+	border-left: 3px solid #ffa500;
+}
+input.form-control.btn.btn-secondary.btn-lg{
+	color: #fff;
+    background-color: #0069D9;
+    border-color: #0069D9;
+}
+
+input.form-control.btn.btn-secondary.btn-lg:hover,
+input.form-control.btn.btn-secondary.btn-lg:active
+{
+	color: #fff;
+    background-color: #009cd9;
+    border-color: #009cd9;
+}
