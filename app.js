@@ -633,8 +633,8 @@ var express=require("express"),
 
 
     //Server starts
-    app.listen(3000,function(){
-    	console.log("Server started at port 3000");
+    app.listen(80,function(){
+    	console.log("Server started at port 80");
     });
     //"C:\Program Files\MongoDB\Server\4.2\bin\mongo"
 /*    var area = document.getElementById("area");             
